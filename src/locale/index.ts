@@ -10,6 +10,7 @@ import zh from './zh-CN.json';
 import ja from './ja.json';
 import es from './es.json';
 import ko from './ko.json';
+import vi from './vi.json';
 
 class Localize {
     instance: any;
@@ -30,6 +31,7 @@ class Localize {
             ja,
             es,
             ko,
+            vi,
         };
 
         // this.instance.defaultLocale = "en";
